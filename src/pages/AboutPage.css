@@ -56,8 +56,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     z-index: 1;
-    padding: 20px;
-    padding-left: 250px;
+    padding: 20px; 
 }
 
 .about-text h1 {
@@ -156,10 +155,10 @@ body {
     height: 35px;
 }
 
-@media screen and (max-width: 962px) {
+@media screen and (max-width: 1294px) {
     .about-section {
         height: auto;
-        padding: 40px 20px;
+        padding: 40px;
         flex-direction: column;
         justify-content: flex-start;
         margin-top: 40px;
@@ -176,8 +175,12 @@ body {
 
     .profile-picture{
        margin-top: -15px;
+       margin-right: 24px;
     }
+
     .about-text {
+        padding-top: 20px;
+        padding-bottom: 20px;
         padding-left: 0;
     }
 
@@ -219,10 +222,13 @@ body {
 
     .profile-picture{
        margin-top: -15px;
+       margin-right: 24px;
     }
     
     .about-text {
+        padding-top: 20px;
         text-align: center;
+        padding-bottom: 20px;
     }
 
     .about-text h1 {
@@ -231,6 +237,7 @@ body {
 
     .about-text p {
         font-size: 0.9rem;
+        margin-left: 20px;
     }
 
     .languages h2 {
