@@ -36,7 +36,6 @@ const AboutPage = () => {
 
   return (
     <div className="about-page" style={introStyles}>
-      <Navbar isToggled={isToggled}/>
       <section id="about" className="about-section" style={introStyles}>
         <div className="about-overlay" style={overlayStyles}></div>
         <button className="toggle-btn" onClick={toggleBackground}>

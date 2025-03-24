@@ -4,7 +4,6 @@ import githubLogo from '../assets/images/github.png';
 import linkedinLogo from '../assets/images/linkedin.png';
 import lightbackground from '../assets/images/lightbackground.jpg';
 import darkbackground from '../assets/images/darkmode.jpg'
-import Navbar from '../components/Navbar';
 import lightMode from '../assets/images/lightmode.png';
 import darkMode from '../assets/images/darkmode.png';
 import { Link } from 'react-router-dom';
@@ -30,7 +29,6 @@ const HomePage = () => {
 
   return (
     <div>
-      <Navbar isToggled={isToggled} />
       <section id="intro" style={introStyles}>
         <div className="intro-overlay" style={overlayStyles}></div>
         <button className="toggle-btn" onClick={toggleBackground}>
