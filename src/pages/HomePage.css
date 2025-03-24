@@ -18,6 +18,7 @@ body {
   overflow: hidden;
   box-shadow: 0px 14px 16px rgba(0, 0, 0, 0.6);
   margin-top: -32px;
+  margin-bottom: 30px;
 }
 
 .intro-overlay {
@@ -110,7 +111,7 @@ h1:hover {
 .intro-social {
   position: absolute;
   bottom: 70px;
-  left: 46%;
+  left: 48%;
   transform: translateX(-50%);
   display: flex;
   gap: 30px;
