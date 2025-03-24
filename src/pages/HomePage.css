@@ -228,6 +228,7 @@ h1:hover {
   }
 
   .toggle-btn {
-    margin-right: 20px;
+    margin-right: -25px;
+    margin-top: -10px;
   }
 }
