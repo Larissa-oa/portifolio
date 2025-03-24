@@ -64,7 +64,7 @@ const PortfolioPage = () => {
               <img src={game} alt="Project 1" className="portfolio-project-image" />
               </a>
               <div className="portfolio-project-description">
-                <p>This is my first project where I built a simple game using Vanilla JS.</p>
+                <p>Game using Vanilla JS. Not responsive -Yet!</p>
                 <p>Languages used: HTML5, Vanilla JS, CSS.</p>
               </div>
             </div>
@@ -78,7 +78,7 @@ const PortfolioPage = () => {
               <img src={recipe} alt="Project 2" className="portfolio-project-image"  id="recipe"/>
               </a>
               <div className="portfolio-project-description">
-                <p>This is a recipe website I created using React. The site allows users to browse recipes and do simple interactions.</p>
+                <p>Recipe website using React. The site allows users to browse recipes and do simple interactions. Responsiviness in development.</p>
                 <p>Languages used: HTML5, React, Node.js, CSS.</p>
               </div>
             </div>
