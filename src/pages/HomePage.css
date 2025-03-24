@@ -226,4 +226,8 @@ h1:hover {
   .intro-content {
     margin-top: -160px;
   }
+
+  .toggle-btn {
+    margin-right: 20px;
+  }
 }
