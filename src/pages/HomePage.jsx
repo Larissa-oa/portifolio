@@ -40,7 +40,7 @@ const HomePage = () => {
               <h5>Hello, </h5>
               <h1>I'm Larissa Almeida.</h1>
               <p className="intro-position">
-                <span>| MERNE Web Developer |</span> 
+                <span>| MERN Web Developer |</span> 
               </p>
               <Link to="/about">
                 <a className="button stroke smoothscroll" title="">Let me tell you more about myself</a>
